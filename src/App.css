@@ -1,11 +1,16 @@
 .App {
   text-align: center;
+ margin-top: 100px;
+}
+body{
+  background-image: url('./components/images/saas-concept-collage.jpg');
+
+}
+h1{
+  font-weight: bolder;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -24,9 +29,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
